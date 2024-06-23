@@ -1,0 +1,112 @@
+body{
+    font-family: "Courier Prime", monospace;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(20deg,rgb(53, 19, 45)10%,rgb(51, 28, 39)50%);
+}
+
+.main-box{
+width: 31%;
+box-shadow: 0 0 5px gray, inset 0 0 10px black;
+height: 100vh;
+display: flex;
+
+}
+.box-one{
+    width: 95%;
+margin-left: 2.3%;
+border: 1px solid black;
+height: 96vh;
+margin-top: 6px;
+background: linear-gradient(20deg,rgb(61, 50, 50) 10%,rgb(155, 150, 150) 40%);
+
+}
+.box-two{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5%;
+    }
+    span{
+        display: flex;
+        justify-content: space-around;
+        }
+        button{
+            width: 80px;
+            height: 20px;
+            border-bottom-left-radius:10px ;
+            border-bottom-right-radius:10px ;
+            background-color: black;
+            color: aliceblue;
+            outline: none;
+            padding: 1px 3px;
+            margin-left: 2px;
+            }
+            button:hover{
+                transform: scale(0.95);
+            }
+            small{
+                font-size: 10px;
+            }
+            .main-box>.box-one>.box-three{
+                display: flex;
+                width: 95%;
+                margin-top: 3px;
+                margin-left: 2.5%;
+                flex-direction: column;
+                }
+                .main-box>.box-one>.box-three>span{
+                    display: flex;
+                    justify-content: space-around;
+                    }
+                    .main-box>.box-one>.box-three>span>button{
+                        width: 80px;
+                        height: 20px;
+                        margin-left: 2px;
+                        margin-top: 3px;
+                        }
+                        .main-box>.box-one>.box-three>span>small{
+                            font-size: 10px;
+}
+.main-box>.box-one>.box-one-top{
+    width: 95%;
+    height: 35%;
+    margin-left: 2vh;
+
+    border: 1px solid black;
+}
+
+.main-box>.box-one>.box-one-top>.box-one-bottom>button{
+    width: 80px;
+    margin-left: 2px;
+    margin-top:6px ;
+}
+.main-box>.box-one>.box-one-top>.box-one-text{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+
+}
+.main-box>.box-one>.box-one-top>.box-one-middle{
+    width: 95%;
+    margin-left: 2%;
+    height: 50%;
+    border: 1px solid black;
+    box-shadow: inset  0 0 8px grey;
+}
+.main-box>.box-one>.box-one-top>.box-one-middle>input[type=text]{
+    width: 95%;
+    height: 80%;
+    border: none;
+    box-shadow:  0 0 8px black;
+    margin-left: 2%;
+    margin-top: 3px;
+      
+}
+@media(max-width:830px){
+    .main-box{
+        width: 100%;
+}
+
+
+}
